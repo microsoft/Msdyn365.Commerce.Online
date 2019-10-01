@@ -1,0 +1,40 @@
+{
+  "exception": null,
+  "pageRoot": {
+    "modules": {
+      "primary": [
+        { "id": "Feature__0", "typeName": "feature" }
+      ]
+    },
+    "id": "default-page_i6go5vy",
+    "typeName": "default-page"
+  },
+  "modules": {
+    "default-page_i6go5vy": {
+      "id": "default-page_i6go5vy",
+      "typeName": "default-page"
+    },
+    "Feature__0": {
+      "data": {
+        "heading": { "text": "Shop our latest collection" },
+        "paragraph": { "text": "<p>Add subtle contrast with our exclusive Affinity Collection. Designed to complement our Luxe bedding collections, Tranquility and Felicity, as well as other bedding ensembles to which you want to add a touch of warmth. Yours in a choice of four soothing neutral hues that help make creating a well-dressed bed easy.</p>" },
+        "image": {
+          "altText": "Feature",
+          "href": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1ESSX?ver=6779&q=90&m=6",
+          "width": 5610,
+          "height": 2103
+        }
+      },
+      "id": "Feature__0",
+      "config": { "layout": "imageRight" },
+      "typeName": "feature"
+    }
+  },
+  "renderingContext": {
+    "staticContext": {
+      "staticCdnUrl": "/_scnr/"
+    },
+    "locale": "en-us"
+  },
+  "statusCode": 200
+}

@@ -1,0 +1,53 @@
+{
+    "config":{
+        "rnrTenantId":{
+            "type": "string",
+            "friendlyName": "Ratings/Reviews tenant id",
+            "description": "Id for your instance of the reviews and ratings service"
+        },
+        "outOfStockThreshold":
+        {
+            "friendlyName": "Out of Stock Threshold",
+            "description": "Threshold to use when determining if a product is out of stock or not -- if its less than or equal to this value, it'll be marked as out of stock",
+            "type": "number",
+            "default": -1
+        },
+        "maxQuantityForCartLineItem":
+        {
+            "friendlyName": "Cart Line Quantity Limit",
+            "description": "Limit to the number of copies of an item that can be added to a cart line",
+            "type": "number",
+            "default": 10
+        },
+        "enableStockCheck": {
+            "friendlyName": "Enable stock check in app",
+            "description": "Flag to enable ot disable stock check in app",
+            "type": "boolean",
+            "default": false
+        },
+        "reviewTextMaxLength": {
+            "friendlyName": "reviewTextMaxLength",
+            "description": "Maximum number of characters for the review text",
+            "type": "number",
+            "default": 500
+        },
+        "reviewTitleMaxLength": {
+            "friendlyName": "reviewTitleMaxLength",
+            "description": "Maximum number of characters for the title",
+            "type": "number",
+            "default": 50
+        },
+        "disableTooltip": {
+            "friendlyName": "diableTooltipFlag",
+            "description": "Flag to disable tooltip on items",
+            "type": "boolean",
+            "default": false
+        }
+    },
+    "routes": {},
+    "themes": {
+        "default":{
+            "friendlyName": "default theme"
+        }
+    }
+}

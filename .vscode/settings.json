@@ -1,0 +1,44 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+    },
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/*.definition.json"
+            ],
+            "url": "/packages/cli-internal/definition-schema.json"
+        },
+        {
+            "fileMatch": [
+                "/**/settings/app.settings.json"
+            ],
+            "url": "/packages/cli-internal/app-settings-schema.json"
+        },
+        {
+            "fileMatch": [
+                "/**/settings/theme.settings.json"
+            ],
+            "url": "/packages/cli-internal/theme-settings-schema.json"
+        },
+        {
+            "fileMatch": [
+                "/**/pageMocks/*.json"
+            ],
+            "url": "/packages/cli-internal/page-mock-schema.json"
+        },
+        {
+            "fileMatch": [
+                "/**/modules/*/mocks/*.json"
+            ],
+            "url": "/packages/cli-internal/module-mock-schema.json"
+        },
+    ],
+    "debug.node.autoAttach": "on"
+}

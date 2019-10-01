@@ -1,0 +1,8 @@
+{
+    "extends": [
+        "@msdyn365-commerce/tslint-rules"
+    ],
+    "rules":{
+        "no-void-expression": false
+    }
+}
