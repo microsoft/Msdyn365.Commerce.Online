@@ -4,11 +4,5 @@
  *--------------------------------------------------------------------------------------------*/
 
 export interface IHelloworldData {
-    /**
-     * Use this file to hook up your data actions
-     *
-     * @dataAction ../actions/--ACTION-NAME-HERE--
-     * @runAt server
-     */
     actionResponse: {text: string};
 }
