@@ -1,3 +1,4 @@
+declare var test: TestFn;
 import { ClientFunction, Selector, t } from 'testcafe';
 
 // Fail if there is any error on client
