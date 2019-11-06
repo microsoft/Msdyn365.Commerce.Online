@@ -20,7 +20,7 @@
     "@types/fs-extra": "^5.0.4",
     "@types/jest": "^23.3.10",
     "@types/node-fetch": "^2.1.4",
-    "@types/react": "16.7.0",
+    "@types/react": "16.9.0",
     "@types/react-dom": "16.0.11",
     "@types/react-test-renderer": "^16.0.2",
     "@types/reactstrap": "^6.4.3",
@@ -39,12 +39,12 @@
     "typeson": "5.10.1"
   },
   "dependencies": {
-    "@msdyn365-commerce-modules/data-types": "1.31.22",
-    "@msdyn365-commerce-modules/shared-components": "1.31.22",
-    "@msdyn365-commerce/retail-proxy": "9.16.6",
-    "@msdyn365-commerce-modules/starter-pack": "1.31.22",
+    "@msdyn365-commerce-modules/data-types": "1.62.9",
+    "@msdyn365-commerce-modules/shared-components": "1.62.9",
+    "@msdyn365-commerce/retail-proxy": "9.16.8",
+    "@msdyn365-commerce-modules/starter-pack": "1.62.9",
     "@msdyn365-commerce/bootloader": "^1.0.0",
-    "@msdyn365-commerce-theme/fabrikam" : "1.31.22",
+    "@msdyn365-commerce-theme/fabrikam" : "1.62.9",
     "reactstrap": "^6.5.0",
     "stack-trace": "^0.0.10",
     "tslib": "^1.9.3"
