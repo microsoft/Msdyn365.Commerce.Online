@@ -47,14 +47,6 @@ c:\repos\MyEcommerceSite>yarn msdyn365 add-module campaignBanner
 ```
 This can take up to a minute or two to complete and will add a new module under `\src\modules\campaignBanner`.
 
-## Modifying an existing starter-kit module
-There are several available modules through the starter kit that can be modified such as alert, banner and hero.
-To modify the 'hero' module, run the below command to pull down the source code into your "SRC" folder:
-```
-c:\repos\MyEcommerceSite>yarn msdyn365 modify hero
-```
-You will find the module under `\src\modules\hero`.
-
 ## Previewing Modules
 To view a specific module rendering locally in a browser, such as `campaignBanner`:
 1. Start the app from a command prompt:
@@ -72,6 +64,9 @@ Functional test files should be added under `/test`. Run tests with this command
 ```
 yarn integration
 ```
+
+## Online Documentaiton
+Online documentation can be found [here](https://docs.microsoft.com/en-us/dynamics365/commerce/e-commerce-extensibility/overview)
 
 ## Third party Image and Video Usage restrictions
 
