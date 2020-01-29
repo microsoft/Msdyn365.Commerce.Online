@@ -9,8 +9,8 @@
         "view": "./helloworld"
     },
     "config": {
-        "showText": {
-            "friendlyName": "showText",
+        "title": {
+            "friendlyName": "Title",
             "description": "example config value",
             "type": "string",
             "default": "Example Config Value",

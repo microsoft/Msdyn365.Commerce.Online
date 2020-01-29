@@ -24,7 +24,7 @@ const mockData: IHelloworldData = {
 };
 
 const mockConfig: IHelloworldConfig = {
-  showText: 'helloworld'
+  title: 'helloworld'
 };
 
 const mockActions = {};
