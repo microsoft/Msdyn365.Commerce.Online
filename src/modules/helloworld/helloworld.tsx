@@ -20,7 +20,7 @@ class Helloworld extends React.PureComponent<IHelloworldProps<IHelloworldData>> 
         return (
             <div className='row'>
                 <div className='col'>
-                    <h2>Config Value: {config.showText}</h2>
+                    <h2>Config Value: {config.title}</h2>
                 </div>
             </div>
         );

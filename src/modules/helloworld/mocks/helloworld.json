@@ -1,7 +1,7 @@
 {
   "id": "R1Module1",
   "config": {
-    "showText": "Example Config Value"
+    "title": "Hello world module"
   },
   "data": {
     "actionResponse": {
