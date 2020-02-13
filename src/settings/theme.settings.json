@@ -19,6 +19,10 @@
                                 "lg": {
                                     "width": 100,
                                     "height": 0
+                                },
+                                "xl": {
+                                    "width": 100,
+                                    "height": 0
                                 }
                             }
                         },
@@ -42,6 +46,10 @@
                                 "lg": {
                                     "width": 0,
                                     "height": 772
+                                },
+                                "xl": {
+                                    "width": 0,
+                                    "height": 772
                                 }
                             }
                         }
@@ -51,9 +59,9 @@
         },
         "hero": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "wide": {
+                    "friendlyName": "Wide",
+                    "description": "Wide hero layout",
                     "type": "layout",
                     "properties": {
                         "image": {
@@ -161,9 +169,9 @@
         },
         "product-placement": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "mediumWidth": {
+                    "friendlyName": "Medium Width",
+                    "description": "Medium width product placement tile",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -176,6 +184,40 @@
                                     "height": 315
                                 },
                                 "lg": {
+                                    "width": 315,
+                                    "height": 315
+                                },
+                                "xl": {
+                                    "width": 315,
+                                    "height": 315
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "product-collection": {
+            "properties": {
+                "mediumWidth": {
+                    "friendlyName": "Medium Width",
+                    "description": "Medium width product placement tile",
+                    "type": "layout",
+                    "properties": {
+                        "imageSettings": {
+                            "friendlyName": "Product placement image settings",
+                            "description": "Image settings for product placement item",
+                            "type": "imageSizes",
+                            "properties": {
+                                "xs": {
+                                    "width": 315,
+                                    "height": 315
+                                },
+                                "lg": {
+                                    "width": 315,
+                                    "height": 315
+                                },
+                                "xl": {
                                     "width": 315,
                                     "height": 315
                                 }
@@ -187,9 +229,9 @@
         },
         "products-by-category": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "mediumWidth": {
+                    "friendlyName": "Medium Width",
+                    "description": "Medium width product placement tile",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -202,6 +244,40 @@
                                     "height": 315
                                 },
                                 "lg": {
+                                    "width": 315,
+                                    "height": 315
+                                },
+                                "xl": {
+                                    "width": 315,
+                                    "height": 315
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "product-search-result": {
+            "properties": {
+                "mediumWidth": {
+                    "friendlyName": "Medium Width",
+                    "description": "Medium width product placement tile",
+                    "type": "layout",
+                    "properties": {
+                        "imageSettings": {
+                            "friendlyName": "Product search result image settings",
+                            "description": "Image settings for product search result",
+                            "type": "imageSizes",
+                            "properties": {
+                                "xs": {
+                                    "width": 315,
+                                    "height": 315
+                                },
+                                "lg": {
+                                    "width": 315,
+                                    "height": 315
+                                },
+                                "xl": {
                                     "width": 315,
                                     "height": 315
                                 }
@@ -213,9 +289,9 @@
         },
         "products-by-search": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "mediumWidth": {
+                    "friendlyName": "Medium Width",
+                    "description": "Medium width product placement tile",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -230,6 +306,10 @@
                                 "lg": {
                                     "width": 315,
                                     "height": 315
+                                },
+                                "xl": {
+                                    "width": 315,
+                                    "height": 315
                                 }
                             }
                         }
@@ -239,9 +319,9 @@
         },
         "recommended-products": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "mediumWidth": {
+                    "friendlyName": "Medium Width",
+                    "description": "Medium width product placement tile",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -256,6 +336,10 @@
                                 "lg": {
                                     "width": 315,
                                     "height": 315
+                                },
+                                "xl": {
+                                    "width": 315,
+                                    "height": 315
                                 }
                             }
                         }
@@ -265,9 +349,9 @@
         },
         "related-products": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "mediumWidth": {
+                    "friendlyName": "Medium Width",
+                    "description": "Medium width product placement tile",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -282,6 +366,10 @@
                                 "lg": {
                                     "width": 315,
                                     "height": 315
+                                },
+                                "xl": {
+                                    "width": 315,
+                                    "height": 315
                                 }
                             }
                         }
@@ -291,9 +379,9 @@
         },
         "content-placement-item": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "Wide": {
+                    "friendlyName": "Wide",
+                    "description": "Wide",
                     "type": "layout",
                     "properties": {
                         "image": {
@@ -302,12 +390,16 @@
                             "type": "imageSizes",
                             "properties": {
                                 "xs": {
-                                    "width": 328,
-                                    "height": 437
+                                    "width": 343,
+                                    "height": 457
                                 },
-                                "lg": {
-                                    "width": 328,
-                                    "height": 437
+                                "md": {
+                                    "width": 427,
+                                    "height": 569
+                                },
+                                "xl": {
+                                    "width": 427,
+                                    "height": 569
                                 }
                             }
                         }
@@ -317,9 +409,9 @@
         },
         "footer-item": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "small": {
+                    "friendlyName": "Small Icon",
+                    "description": "Small Icon",
                     "type": "layout",
                     "properties": {
                         "image": {
@@ -328,12 +420,16 @@
                             "type": "imageSizes",
                             "properties": {
                                 "xs": {
-                                    "width": 24,
-                                    "height": 24
+                                    "width": 48,
+                                    "height": 48
                                 },
                                 "lg": {
-                                    "width": 24,
-                                    "height": 24
+                                    "width": 48,
+                                    "height": 48
+                                },
+                                "xl": {
+                                    "width": 48,
+                                    "height": 48
                                 }
                             }
                         }
@@ -343,9 +439,9 @@
         },
         "logo": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "mediumWidth": {
+                    "friendlyName": "Medium",
+                    "description": "Medium",
                     "type": "layout",
                     "properties": {
                         "image": {
@@ -355,9 +451,13 @@
                             "properties": {
                                 "xs": {
                                     "width": 132,
-                                    "height": 28
+                                    "height": 40
                                 },
                                 "lg": {
+                                    "width": 160,
+                                    "height": 48
+                                },
+                                "xl": {
                                     "width": 160,
                                     "height": 48
                                 }
@@ -369,9 +469,9 @@
         },
         "order-history": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "mediumWidth": {
+                    "friendlyName": "Medium",
+                    "description": "Medium",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -381,11 +481,15 @@
                             "properties": {
                                 "xs": {
                                     "width": 81,
-                                    "height": 108
+                                    "height": 81
                                 },
                                 "lg": {
                                     "width": 81,
-                                    "height": 108
+                                    "height": 81
+                                },
+                                "xl": {
+                                    "width": 81,
+                                    "height": 81
                                 }
                             }
                         }
@@ -395,9 +499,9 @@
         },
         "wishlist-items": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "mediumWidth": {
+                    "friendlyName": "Medium",
+                    "description": "Medium",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -412,6 +516,10 @@
                                 "lg": {
                                     "width": 315,
                                     "height": 315
+                                },
+                                "xl": {
+                                    "width": 315,
+                                    "height": 315
                                 }
                             }
                         }
@@ -421,9 +529,9 @@
         },
         "autosuggest": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "small": {
+                    "friendlyName": "Small",
+                    "description": "Small",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -438,6 +546,10 @@
                                 "lg": {
                                     "width": 40,
                                     "height": 40
+                                },
+                                "xl": {
+                                    "width": 40,
+                                    "height": 40
                                 }
                             }
                         }
@@ -447,9 +559,9 @@
         },
         "cart-line-items": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "small": {
+                    "friendlyName": "Small",
+                    "description": "Small",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -458,16 +570,20 @@
                             "type": "imageSizes",
                             "properties": {
                                 "xs": {
-                                    "width": 148,
-                                    "height": 174
+                                    "width": 80,
+                                    "height": 80
                                 },
                                 "sm": {
-                                    "width": 80,
-                                    "height": 80
+                                    "width": 148,
+                                    "height": 148
                                 },
                                 "lg": {
-                                    "width": 80,
-                                    "height": 80
+                                    "width": 148,
+                                    "height": 148
+                                },
+                                "xl": {
+                                    "width": 148,
+                                    "height": 148
                                 }
                             }
                         }
@@ -477,9 +593,9 @@
         },
         "checkout-line-items": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "small": {
+                    "friendlyName": "Small",
+                    "description": "Small",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -489,11 +605,15 @@
                             "properties": {
                                 "xs": {
                                     "width": 80,
-                                    "height": 94
+                                    "height": 80
                                 },
                                 "lg": {
                                     "width": 80,
-                                    "height": 94
+                                    "height": 80
+                                },
+                                "xl": {
+                                    "width": 80,
+                                    "height": 80
                                 }
                             }
                         }
@@ -503,9 +623,9 @@
         },
         "order-details": {
             "properties": {
-                "horizontal": {
-                    "friendlyName": "Horizontal",
-                    "description": "Horizontal",
+                "small": {
+                    "friendlyName": "Small",
+                    "description": "Small",
                     "type": "layout",
                     "properties": {
                         "imageSettings": {
@@ -514,13 +634,66 @@
                             "type": "imageSizes",
                             "properties": {
                                 "xs": {
-                                    "width": 148,
-                                    "height": 174
+                                    "width": 80,
+                                    "height": 80
                                 },
                                 "lg": {
                                     "width": 148,
-                                    "height": 174
+                                    "height": 148
+                                },
+                                "xl": {
+                                    "width": 148,
+                                    "height": 148
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "sign-in": {
+        "properties": {
+            "Small": {
+                "friendlyName": "Small",
+                "description": "Small",
+                "type": "layout",
+                "properties": {
+                    "facebookIcon": {
+                        "friendlyName": "Facebook icon image settings",
+                        "description": "Facebook icon image settings",
+                        "type": "imageSizes",
+                        "properties": {
+                            "xs": {
+                                "width": 32,
+                                "height": 32
+                            },
+                            "lg": {
+                                "width": 32,
+                                "height": 32
+                            },
+                            "xl": {
+                                "width": 32,
+                                "height": 32
+                            }
+                        }
+                    },
+                    "microsoftIcon": {
+                        "friendlyName": "Microsoft icon image settings",
+                        "description": "Microsoft icon image settings",
+                        "type": "imageSizes",
+                        "properties": {
+                            "xs": {
+                                "width": 32,
+                                "height": 32
+                            },
+                            "lg": {
+                                "width": 32,
+                                "height": 32
+                            },
+                            "xl": {
+                                "width": 32,
+                                "height": 32
                             }
                         }
                     }

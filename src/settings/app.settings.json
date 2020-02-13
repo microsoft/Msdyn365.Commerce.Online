@@ -1,19 +1,17 @@
 {
-    "config":{
-        "rnrTenantId":{
+    "config": {
+        "rnrTenantId": {
             "type": "string",
             "friendlyName": "Ratings/Reviews tenant id",
             "description": "Id for your instance of the reviews and ratings service"
         },
-        "outOfStockThreshold":
-        {
+        "outOfStockThreshold": {
             "friendlyName": "Out of Stock Threshold",
             "description": "Threshold to use when determining if a product is out of stock or not -- if its less than or equal to this value, it'll be marked as out of stock",
             "type": "number",
-            "default": -1
+            "default": 0
         },
-        "maxQuantityForCartLineItem":
-        {
+        "maxQuantityForCartLineItem": {
             "friendlyName": "Cart Line Quantity Limit",
             "description": "Limit to the number of copies of an item that can be added to a cart line",
             "type": "number",
@@ -42,12 +40,75 @@
             "description": "Flag to disable tooltip on items",
             "type": "boolean",
             "default": false
+        },
+        "disableBopis": {
+            "friendlyName": "Disable BOPIS",
+            "description": "Flag to disable BOPIS",
+            "type": "boolean",
+            "default": false
+        },
+        "searchQueryStringParameter": {
+            "friendlyName": "searchQueryStringParameter",
+            "description": "Query string parameter for search",
+            "type": "string",
+            "default": "q"
+        },
+        "searchInputMaxLength": {
+            "friendlyName": "searchInputMaxLength",
+            "description": "Maximum number of characters for the search input field",
+            "type": "number",
+            "default": 50
         }
     },
-    "routes": {},
+    "routes": {
+        "orderDetails": {
+            "friendlyName": "Order details Page Route",
+            "description": "Order details Page Route"
+        },
+        "cart": {
+            "friendlyName": "Cart Page Route",
+            "description": "Cart Page Route"
+        },
+        "checkout": {
+            "friendlyName": "Checkout Page Route",
+            "description": "Checkout Page Route"
+        },
+        "orderConfirmation": {
+            "friendlyName": "Order Confirmation Page Route",
+            "description": "Order Confirmation Page Route"
+        },
+        "home": {
+            "friendlyName": "Home Page Route",
+            "description": "Home Page Route"
+        },
+        "rnrPrivacyPolicy": {
+            "friendlyName": "RNR Privacy Policy",
+            "description": "Privacy Policy for Ratings and Reviews"
+        },
+        "wishlist": {
+            "friendlyName": "Wishlist Page Route",
+            "description": "Wishlist Page Route"
+        },
+        "loyalty": {
+            "friendlyName": "Loyalty Page Route",
+            "description": "Loyalty Page Route"
+        },
+        "loyaltyJoin": {
+            "friendlyName": "Loyalty sign up Page Route",
+            "description": "Loyalty sign up Page Route"
+        },
+        "loyaltyTerms": {
+            "friendlyName": "Loyalty terms page route",
+            "description": "Loyalty terms Page Route"
+        },
+        "search": {
+            "friendlyName": "Search page route",
+            "description": "Search page route"
+        }
+    },
     "themes": {
-        "default":{
-            "friendlyName": "default theme"
+        "fabrikam": {
+            "friendlyName": "Fabrikam theme"
         }
     }
 }

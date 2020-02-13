@@ -1,0 +1,21 @@
+{
+    "checkPeriodInSeconds": 1800,
+    "ttlInSeconds": {
+        "ChannelConfiguration": 86400,
+        "SimpleProduct": 1800,
+        "ProductRating": 1800,
+        "Category" : 1800,
+        "ProductCatalog": 1800,
+        "OrgUnit": 1800,
+        "MappedSearchInput": 1800
+    },
+    "ttrInSeconds": {
+        "ChannelConfiguration": 18000,
+        "SimpleProduct": 300,
+        "ProductRating": 300,
+        "Category" : 300,
+        "ProductCatalog": 300,
+        "OrgUnit": 300,
+        "MappedSearchInput": 300
+    }
+}
