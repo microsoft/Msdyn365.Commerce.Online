@@ -56,5 +56,10 @@
   },
   "jest": {
     "preset": "@msdyn365-commerce/cli-internal"
+  },
+  "resolutions": {
+    "@msdyn365-commerce/bootloader": "^1.0.0",
+    "@msdyn365-commerce/core": "^1.0.0",
+    "@msdyn365-commerce-modules/core-components": "^1.0.0"
   }
 }
