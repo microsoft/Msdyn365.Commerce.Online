@@ -42,7 +42,7 @@
     "@msdyn365-commerce-modules/starter-pack": "9.21.14",
     "@msdyn365-commerce-modules/fabrikam-design-kit": "9.21.14",
     "@msdyn365-commerce/bootloader": "^1.0.0",
-    "@msdyn365-commerce/retail-proxy": "9.21",
+    "@msdyn365-commerce/retail-proxy": "9.21.2",
     "reactstrap": "^6.5.0",
     "stack-trace": "^0.0.10",
     "tslib": "^1.9.3"
