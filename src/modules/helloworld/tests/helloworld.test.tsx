@@ -38,7 +38,7 @@ describe('Helloworld', () => {
     const component: renderer.ReactTestRenderer = renderer.create(
       <Helloworld {...moduleProps} />
     );
-    const tree: renderer.ReactTestRendererJSON | null = component.toJSON();
+    const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

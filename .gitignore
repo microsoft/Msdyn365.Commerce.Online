@@ -276,6 +276,7 @@ lib/
 !starter-pack/**/dist
 !sdk/**/lib
 !starter-pack/**/lib
+.env
 .env.local
 .env.development.local
 .env.test.local
