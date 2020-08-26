@@ -39,10 +39,10 @@
     "typeson": "5.10.1"
   },
   "dependencies": {
-    "@msdyn365-commerce-modules/starter-pack": "9.20.8",
-    "@msdyn365-commerce-modules/fabrikam-design-kit": "9.20.8",
-    "@msdyn365-commerce/retail-proxy": "9.18.2",
+    "@msdyn365-commerce-modules/starter-pack": "9.22",
+    "@msdyn365-commerce-modules/fabrikam-design-kit": "9.22",
     "@msdyn365-commerce/bootloader": "^1.0.0",
+    "@msdyn365-commerce/retail-proxy": "9.22",
     "reactstrap": "^6.5.0",
     "stack-trace": "^0.0.10",
     "tslib": "^1.9.3"
