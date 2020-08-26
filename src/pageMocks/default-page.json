@@ -28,7 +28,7 @@
         "modules": {
           "header": [],
           "primary": [{
-            "id": "content-block",
+            "id": "Content Block 1",
             "config": {
               "imagePlacement": "imageLeft",
               "lazyload": false,
