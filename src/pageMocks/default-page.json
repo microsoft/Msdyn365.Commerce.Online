@@ -28,7 +28,7 @@
         "modules": {
           "header": [],
           "primary": [{
-            "id": "FeatureModule_left",
+            "id": "content-block",
             "config": {
               "imagePlacement": "imageLeft",
               "lazyload": false,
@@ -45,7 +45,7 @@
                 "OpenInNewTab": true
               }]
             },
-            "typeName": "feature"
+            "typeName": "content-block"
           }],
           "footer": []
         }
