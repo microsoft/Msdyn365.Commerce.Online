@@ -1,21 +1,39 @@
 {
     "checkPeriodInSeconds": 1800,
     "ttlInSeconds": {
-        "ChannelConfiguration": 86400,
-        "SimpleProduct": 1800,
-        "ProductRating": 1800,
-        "Category" : 1800,
-        "ProductCatalog": 1800,
-        "OrgUnit": 1800,
-        "MappedSearchInput": 1800
+        "ChannelConfiguration": 43200,
+        "SimpleProduct": 43200,
+        "ProductRating": 43200,
+        "Category": 43200,
+        "ProductCatalog": 43200,
+        "OrgUnit": 43200,
+        "MappedSearchInput": 43200,
+        "FullProduct": 43200,
+        "Product": 43200,
+        "CategoryHierarchy": 43200,
+        "AttributeValue": 43200,
+        "ProductDimensionValue": 43200,
+        "FullProductSearchResult": 43200,
+        "ProductRefiner": 43200,
+        "PRODUCTLIST-RECOMMENDATION":43200,
+        "PRODUCTLIST-RELATEDPRODUCTS":43200
     },
     "ttrInSeconds": {
-        "ChannelConfiguration": 18000,
-        "SimpleProduct": 300,
-        "ProductRating": 300,
-        "Category" : 300,
-        "ProductCatalog": 300,
-        "OrgUnit": 300,
-        "MappedSearchInput": 300
+        "ChannelConfiguration": 1800,
+        "SimpleProduct": 900,
+        "ProductRating": 900,
+        "Category": 900,
+        "ProductCatalog": 900,
+        "OrgUnit": 1800,
+        "MappedSearchInput": 900,
+        "FullProduct": 900,
+        "Product": 900,
+        "CategoryHierarchy": 1800,
+        "AttributeValue": 900,
+        "ProductDimensionValue": 1800,
+        "FullProductSearchResult": 900,
+        "ProductRefiner": 900,
+        "PRODUCTLIST-RECOMMENDATION":900,
+        "PRODUCTLIST-RELATEDPRODUCTS":900
     }
 }
