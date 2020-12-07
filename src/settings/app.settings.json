@@ -82,12 +82,6 @@
             "type": "boolean",
             "default": false
         },
-        "disableBopis": {
-            "friendlyName": "Disable BOPIS",
-            "description": "Flag to disable BOPIS",
-            "type": "boolean",
-            "default": false
-        },
         "searchQueryStringParameter": {
             "friendlyName": "Search query string parameter",
             "description": "Query string parameter for search",
