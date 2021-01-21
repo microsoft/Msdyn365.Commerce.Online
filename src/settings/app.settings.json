@@ -47,11 +47,6 @@
             "default": 10,
             "group": "Inventory management"
         },
-        "rnrTenantId": {
-            "type": "string",
-            "friendlyName": "Ratings and review tenant id",
-            "description": "Id for your instance of the reviews and ratings service"
-        },
         "hideRating": {
             "friendlyName": "Hide rating",
             "description": "This settings hides the rating for products across the site",
@@ -79,12 +74,6 @@
         "disableTooltip": {
             "friendlyName": "Disable tooltip flag",
             "description": "Flag to disable tooltip on items",
-            "type": "boolean",
-            "default": false
-        },
-        "disableBopis": {
-            "friendlyName": "Disable BOPIS",
-            "description": "Flag to disable BOPIS",
             "type": "boolean",
             "default": false
         },
