@@ -289,3 +289,8 @@ integration-test-report.xml
 *.lock
 # permission
 *.pem
+
+# build artifacts
+version.json
+stats-client-*.json
+stats-server-*.json
