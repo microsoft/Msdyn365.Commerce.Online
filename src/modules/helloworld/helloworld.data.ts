@@ -4,5 +4,5 @@
  *--------------------------------------------------------------------------------------------*/
 
 export interface IHelloworldData {
-    actionResponse: {text: string};
+    actionResponse: { text: string };
 }
