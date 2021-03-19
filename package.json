@@ -49,10 +49,10 @@
     "typeson": "5.10.1"
   },
   "dependencies": {
-    "@msdyn365-commerce-modules/starter-pack": "9.26",
-    "@msdyn365-commerce-modules/fabrikam-design-kit": "9.26",
+    "@msdyn365-commerce-modules/starter-pack": "9.27.7",
+    "@msdyn365-commerce-modules/fabrikam-design-kit": "9.27.7",
     "@msdyn365-commerce/bootloader": "^1.0.0",
-    "@msdyn365-commerce/retail-proxy": "9.26",
+    "@msdyn365-commerce/retail-proxy": "9.27",
     "@msdyn365-commerce-modules/msdyn365-exp-test-connector": "^1.0.0",
     "reactstrap": "^6.5.0",
     "stack-trace": "^0.0.10",
