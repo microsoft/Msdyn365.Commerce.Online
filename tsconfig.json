@@ -27,8 +27,8 @@
       "noUnusedLocals": true,
       "resolveJsonModule": true,
       "sourceMap": true,
-      "strictNullChecks": true,
       "strict": true,
+      "strictNullChecks": true,
       "pretty": true,
       "outDir": "build",
       "suppressImplicitAnyIndexErrors": true,
@@ -36,13 +36,16 @@
       "skipLibCheck": true
     },
     "exclude": [
-      "node_modules",
       "build",
       "lib",
       "scripts",
       "acceptance-tests",
       "webpack",
       "jest"
+    ],
+    "include": [
+      "node_modules/@msdyn365-commerce/bootloader/placeholder-ts/placeholder.ts",
+      "src/**/*"
     ],
     "types": [
       "node"
