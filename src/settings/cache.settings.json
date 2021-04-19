@@ -20,7 +20,11 @@
         "FullProductSearchResult": 43200,
         "ProductRefiner": 43200,
         "PRODUCTLIST-RECOMMENDATION":43200,
-        "PRODUCTLIST-RELATEDPRODUCTS":43200
+        "PRODUCTLIST-RELATEDPRODUCTS":43200,
+        "CountryRegionInfo":43200,
+        "AddressPurpose":43200,
+        "StateProvinceInfo":43200,
+        "ProductPageSummary":43200
     },
     "ttrInSeconds": {
         "ChannelConfiguration": 1800,
@@ -42,6 +46,10 @@
         "FullProductSearchResult": 900,
         "ProductRefiner": 900,
         "PRODUCTLIST-RECOMMENDATION":900,
-        "PRODUCTLIST-RELATEDPRODUCTS":900
+        "PRODUCTLIST-RELATEDPRODUCTS":900,
+        "CountryRegionInfo":900,
+        "AddressPurpose":900,
+        "StateProvinceInfo":900,
+        "ProductPageSummary":900
     }
 }
