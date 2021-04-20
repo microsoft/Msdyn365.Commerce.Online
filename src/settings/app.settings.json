@@ -33,6 +33,18 @@
             "required": true,
             "group": "Inventory management"
         },
+        "warehouseAggregation": {
+            "friendlyName": "Inventory level for multiple warehouses",
+            "description": "This setting defines if inventory  should be calculated based on individual warehouse or if it should an aggregate of  the applicable warehouses.",
+            "type": "string",
+            "enum": {
+                "individual": "Based on individual warehouses (default)",
+                "multiple": "Based on aggregate for Shipping and Pickup warehouses"
+            },
+            "default": "individual",
+            "required": true,
+            "group": "Inventory management"
+        },
         "outOfStockThreshold": {
             "friendlyName": "Out of stock threshold",
             "description": "Active when Inventory Buffer is selected. Threshold to use when determining if a product is out of stock or not -- if its less than or equal to this value, it'll be marked as out of stock",
@@ -103,6 +115,7 @@
             "enum": {
                 "goToCart": "Navigate to cart page",
                 "showModal": "Show notification",
+                "showMiniCart": "Show mini cart",
                 "showNotification": "Show notification using Notifications module",
                 "nothing": "Do not navigate to cart page"
             },
@@ -133,6 +146,13 @@
             },
             "default": "category",
             "required": true,
+            "group": "General"
+        },
+        "shouldUseNewImageComponent": {
+            "friendlyName": "Enable image fallback",
+            "description": "This setting enables the new image logic which shows a placeholder image and low resolution images while the actual image is loading. This can be overridden on the module by setting “Disable lazy load” to true.",
+            "type": "boolean",
+            "default": true,
             "group": "General"
         },
         "unitOfMeasureDisplayType": {
