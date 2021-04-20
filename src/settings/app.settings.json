@@ -134,6 +134,18 @@
             "default": "category",
             "required": true,
             "group": "General"
+        },
+        "unitOfMeasureDisplayType": {
+            "friendlyName": "Display unit of measure for products",
+            "description": "This setting defines the display of unit of measure for a product",
+            "type": "string",
+            "enum": {
+                "buybox": "Display in the product buying experience",
+                "buyboxAndBrowse": "Display in the product browsing and buying experience",
+                "none": "Do not display"
+            },
+            "default": "none",
+            "group": "General"
         }
     },
     "routes": {
@@ -193,7 +205,6 @@
             "friendlyName": "Invoice details Page Route",
             "description": "Invoice details Page Route"
         }
-        
     },
     "themes": {
         "fabrikam": {
