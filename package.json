@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "analyze": "SET ANALYZE_BUNDLE=true && yarn msdyn365b start",
-    "analyze:prod": "SET ANALYZE_BUNDLE=true && yarn msdyn365b build",
+    "analyze": "SET ANALYZE_BUNDLE=true && yarn msdyn365b start --use-eslint",
+    "analyze:prod": "SET ANALYZE_BUNDLE=true && yarn msdyn365b build --use-eslint",
     "build": "yarn msdyn365b build --use-eslint",
     "build:prod": "yarn clean && yarn msdyn365b build --use-eslint",
     "clean": "yarn rimraf build lib dist .tmp gendef.lock",
