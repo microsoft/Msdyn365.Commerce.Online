@@ -52,6 +52,19 @@
             "default": 0,
             "group": "Inventory management"
         },
+        "productListInventoryDisplay": {
+            "friendlyName": "Inventory settings for product list pages.",
+            "description": "This setting defines how out of stock products should be displayed in product lists such as Product Collection and Search results modules.",
+            "type": "string",
+            "enum": {
+                "hideOOS": "Hide out of stock products from list",
+                "sortOOS": "Display out of stock products at the end of the list",
+                "default": "Display in-order with other products (default)"
+            },
+            "default": "default",
+            "required": true,
+            "group": "Inventory management"
+        },
         "maxQuantityForCartLineItem": {
             "friendlyName": "Cart line quantity limit",
             "description": "Limit to the number of copies of an item that can be added to a cart line",
@@ -166,6 +179,47 @@
             },
             "default": "none",
             "group": "General"
+        },
+        "shouldEnableSinglePaymentAuthorizationCheckout": {
+            "friendlyName": "Enable single payment authorization checkout",
+            "description": "This setting streamlines payment authorization by making a single request that includes a request for tokenization and an authorization for the amount due. When enabled, the payment module must be placed as the last step in checkout prior to place order.",
+            "type": "boolean",
+            "default": false,
+            "group": "Cart and checkout"
+        },
+        "dimensionsAsSwatchType" : {
+            "friendlyName": "Dimensions to display as swatch",
+            "description": "This setting defines which dimensions will be displayed as a color, image, or inline text. It applies to all experiences that support dimension selection such as buy box, quick view, search results, and product collection modules.",
+            "type": "array",
+            "uniqueItems": true,
+            "default": ["none"],
+            "group": "Dimension Settings",
+            "items": {
+                "type": "string",
+                "enum":{
+                    "none": "none",
+                    "color": "Color",
+                    "size": "Size",
+                    "style": "Style"
+                }
+            }
+        },
+        "dimensionsInProductCard" : {
+            "friendlyName": "Dimensions to display in product card",
+            "description": "This setting defines which dimensions should be displayed when browsing the products. It applies to product collection and search results modules. It is not recommended to turn it on when the products have lots of dimensions as it may cause some bad user experience as the product cards will be big.",
+            "type": "array",
+            "uniqueItems": true,
+            "default": ["none"],
+            "group": "Dimension Settings",
+            "items": {
+                "type": "string",
+                "enum":{
+                    "none": "none",
+                    "color": "Color",
+                    "size": "Size",
+                    "style": "Style"
+                }
+            }
         }
     },
     "routes": {
