@@ -220,6 +220,20 @@
                     "style": "Style"
                 }
             }
+        },
+        "dimensionToPreSelectInProductCard" : {
+            "friendlyName": "Dimension to pre-select in product card",
+            "description": "On page load, the first value of the selected dimension will always be selected in a product card and will display the respective image. This setting applies only if you selected a value in Dimensions to display on product card.",
+            "type": "string",
+            "enum":{
+                "none": "none",
+                "color": "Color",
+                "size": "Size",
+                "style": "Style"
+            },
+            "default": "color",
+            "required": true,
+            "group": "Dimension Settings"
         }
     },
     "routes": {
