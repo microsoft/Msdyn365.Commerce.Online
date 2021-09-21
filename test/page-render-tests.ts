@@ -18,13 +18,22 @@ test('validate renderPage div render', async (testController: TestController) =>
     await testController.expect(renderPageDiv.exists).eql(true, 'Could not find default page container');
 });
 
-test('validate carousel module render', async (testController: TestController) => {
-    const featureModule = Selector('main .feature');
+test('validate title is rendered on the page', async (testController: TestController) => {
+    const pageTitle = Selector('main .ms-content-block__title');
     await testController
-            .expect(featureModule.exists)
-            .eql(true, 'Could not find Feature module');
+            .expect(pageTitle.exists) 
+            .eql(true, 'Could not find title on the page');
+     await testController
+            .expect(pageTitle.innerText) 
+            .eql('Heading', 'Incorrect title rendered');
+});
 
+test('validate pageText is rendered on the page', async (testController: TestController) => {
+    const pageText = Selector('main .ms-content-block__text');
     await testController
-        .expect(featureModule.innerText)
-        .contains('Shop our latest collection', 'Could not find headline');
+            .expect(pageText.exists) 
+            .eql(true, 'Could not find page text on the page');
+    await testController
+            .expect(pageText.innerText) 
+            .eql('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.', 'Incorrect page text rendered on the page');
 });
