@@ -14,7 +14,9 @@
     "lint:fix": "yarn eslint src/**/*.{ts,tsx} --fix",
     "precommit": "lint-staged",
     "start": "yarn msdyn365b start local --use-eslint",
-    "start:prod": "SET NODE_ENV=production && node build/server.js"
+    "start:prod": "SET NODE_ENV=production && node build/server.js",
+    "integration": "integration"
+
   },
   "devDependencies": {
     "@msdyn365-commerce/eslint-config": "^1.0.0",
