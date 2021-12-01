@@ -4,7 +4,7 @@
 License is listed in the [LICENSE](./LICENSE) file.
 
 ## Starter kit license
-License for starter kit is listed in the [LICENSE](./starter-pack/LICENSE) file of starter pack.
+License for starter kit is listed in the [LICENSE](./module-library/LICENSE) file of starter pack.
 
 ## Prerequisites
 1. Install [VS Code](https://code.visualstudio.com/)
