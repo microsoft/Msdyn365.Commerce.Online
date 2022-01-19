@@ -241,6 +241,13 @@
             "default": "color",
             "required": true,
             "group": "Dimension settings"
+        },
+        "isEnableShowOrHideSalesTaxECommerceEnabled": {
+            "friendlyName": "Show taxes breakup in order summary",
+            "description": "In E-Commerce channel, when Show Taxes breakup in order summary is set to No, hide taxes information in order summary on cart/check-out/order confirmation and order details pages in E-Commerce site.",
+            "type": "boolean",
+            "default": false,
+            "group": "General"
         }
     },
     "routes": {
