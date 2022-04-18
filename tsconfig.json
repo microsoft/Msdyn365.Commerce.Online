@@ -7,7 +7,7 @@
       "allowUnreachableCode": false,
       "noFallthroughCasesInSwitch": true,
       "allowSyntheticDefaultImports": true,
-      "downlevelIteration": true,      
+      "downlevelIteration": true,
       "esModuleInterop": true,
       "experimentalDecorators": true,
       "forceConsistentCasingInFileNames": true,
