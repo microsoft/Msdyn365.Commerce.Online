@@ -175,6 +175,13 @@
             "default": true,
             "group": "General"
         },
+        "placeholderImageName": {
+            "friendlyName": "Empty placeholder image",
+            "description": "Provide empty placeholder image to be displayed in case main image is missing",
+            "type": "string",
+            "default": "placeholder.png",
+            "group": "General"
+        },
         "unitOfMeasureDisplayType": {
             "friendlyName": "Display unit of measure for products",
             "description": "This setting defines the display of unit of measure for a product",
