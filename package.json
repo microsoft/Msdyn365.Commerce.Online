@@ -16,7 +16,6 @@
     "start": "yarn msdyn365b start local --use-eslint",
     "start:prod": "SET NODE_ENV=production && node build/server.js",
     "integration": "integration"
-
   },
   "devDependencies": {
     "@msdyn365-commerce/eslint-config": "^1.0.0",
@@ -59,7 +58,23 @@
     "@msdyn365-commerce-theme/adventureworks-theme-kit": "9.36",
     "reactstrap": "^6.5.0",
     "stack-trace": "^0.0.10",
-    "tslib": "^1.9.3"
+    "tslib": "^1.9.3",
+    "path-browserify": "1.0.1",
+    "stream-browserify": "3.0.0",
+    "browserify-fs": "1.0.0",
+    "util": "0.12.3",
+    "react-universal-component": "^4.0.0",
+    "@babel/runtime": "^7.12.5",
+    "run-script-webpack-plugin": "0.0.5",
+    "terser": "5.5.0",
+    "terser-webpack-plugin": "5.1.1",
+    "process": "0.11.10",
+    "sass-loader": "^10.2.0",
+    "css-loader": "^2.1.1",
+    "node-sass": "^6.0.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "css-minimizer-webpack-plugin": "3.1.3",
+    "ignore-emit-webpack-plugin": "2.0.6"
   },
   "lint-staged": {
     "*.(j|t)s(x)?": [
@@ -76,6 +91,19 @@
     "@msdyn365-commerce/core": "^1.0.0",
     "@msdyn365-commerce-modules/core-components": "^1.0.0",
     "axios": "^0.21.1",
-    "@types/react": "16.9.0"
+    "@types/react": "16.9.0",
+    "fork-ts-checker-webpack-plugin": "6.0.8",
+    "browserify-fs": "1.0.0",
+    "@babel/runtime": "^7.12.5",
+    "path-browserify": "1.0.1",
+    "stream-browserify": "3.0.0",
+    "run-script-webpack-plugin": "0.0.5",
+    "terser": "5.5.0",
+    "terser-webpack-plugin": "5.1.1",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-dev-server": "3.11.2",
+    "webpack": "^5.42.0",
+    "react-universal-component": "^4.0.0",
+    "util": "0.12.3"
   }
 }
