@@ -46,7 +46,7 @@
             "type": "string",
             "enum": {
                 "individual": "Based on individual warehouses (default)",
-                "multiple": "Based on aggregate for Shipping and Pickup warehouses"
+                "multiple": "Based on aggregate for shipping and pickup warehouses"
             },
             "default": "individual",
             "required": true,
@@ -136,7 +136,7 @@
                 "goToCart": "Navigate to cart page",
                 "showModal": "Show notification",
                 "showMiniCart": "Show mini cart",
-                "showNotification": "Show notification using Notifications module",
+                "showNotification": "Show notification using notifications module",
                 "nothing": "Do not navigate to cart page"
             },
             "default": "goToCart",
