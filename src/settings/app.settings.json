@@ -255,6 +255,38 @@
             "type": "boolean",
             "default": false,
             "group": "General"
+        },
+        "maxQuantityForProductListLineItem":{
+            "friendlyName": "Order template cart line quantity limit",
+            "description": "Maximum quantity limit of an item that can be added to a cart line from order template",
+            "type": "number",
+            "default": 10,
+            "group": "Inventory management"
+        },
+        "canRenderAsyncCustomerDataAsUnmodifiable": {
+            "friendlyName": "Allow certain UI elements to be unmodifiable by an async customer.",
+            "description": "When enabled, allows the displaying of an info message and disablement of certain buttons when the customer is async and other conditions are met.",
+            "type": "boolean",
+            "default": false,
+            "group": "Account"
+        },
+        "productComparisonDesktopProductsLimit": {
+            "friendlyName": "Products in the comparison limit - desktop devices",
+            "type": "number",
+            "description": "Specifies the maximum number of products that can be added to the comparison at the same time. If not defined, no limit will be used.",
+            "group": "General"
+        },
+        "productComparisonMobileProductsLimit": {
+            "friendlyName": "Products in the comparison limit - mobile and tablet devices",
+            "type": "number",
+            "description": "Specifies the maximum number of products that can be added to the comparison at the same time. If not defined, no limit will be used.",
+            "group": "General"
+        },
+        "displayGreyPlaceHolders": {
+            "friendlyName": "Enable to display grey placeholders",
+            "type": "boolean",
+            "description": "This setting displays grey placeholders showing a product can be added to comparison",
+            "group": "General"
         }
     },
     "routes": {
