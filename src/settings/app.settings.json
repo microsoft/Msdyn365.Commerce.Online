@@ -301,6 +301,13 @@
             "type": "boolean",
             "default": false,
             "group": "Cart and checkout"
+        },
+        "OmniChannelMedia": {
+            "friendlyName": "Enable omni channel media management",
+            "description": "This switch changes the default rendering behavior for product and category media.  Once enabled, media assignments made in the omni channel workspace will be used instead of the legacy filename-based product and category image rendering behavior",
+            "type": "boolean",
+            "default": false,
+            "group": "General"
         }
     },
     "routes": {
