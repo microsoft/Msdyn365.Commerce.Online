@@ -72,13 +72,13 @@
             "required": true,
             "group": "Inventory management"
         },
-        "maxQuantityForCartLineItem": {
-            "friendlyName": "Cart line quantity limit",
-            "description": "Limit to the number of copies of an item that can be added to a cart line",
-            "type": "number",
-            "default": 10,
-            "group": "Inventory management"
-        },
+      "maxQuantityForCartLineItem": {
+        "friendlyName": "Cart line quantity limit",
+        "description": "This configuration will be deprecated in future releases. Please use the configuration 'Maximum quantity per item' in the Commerce Headquarters under Functionality profiles for the online store.",
+        "type": "number",
+        "default": 10,
+        "group": "Inventory management"
+      },
         "hideRating": {
             "friendlyName": "Hide rating",
             "description": "This settings hides the rating for products across the site",
@@ -304,7 +304,7 @@
         },
         "OmniChannelMedia": {
             "friendlyName": "Enable omni channel media management",
-            "description": "This switch changes the default rendering behavior for product and category media.  Once enabled, media assignments made in the omni channel workspace will be used instead of the legacy filename-based product and category image rendering behavior",
+            "description": "This changes the default rendering behavior for product and category media. Once enabled, media assignments made using the Omnichannel content workflows will be used instead of the legacy filename-based product and category image rendering behavior.",
             "type": "boolean",
             "default": false,
             "group": "General"
