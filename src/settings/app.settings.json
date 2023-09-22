@@ -201,7 +201,7 @@
             "default": false,
             "group": "Cart and checkout"
         },
-        "dimensionsAsSwatchType" : {
+        "dimensionsAsSwatchType": {
             "friendlyName": "Dimensions to display as swatch",
             "description": "This setting defines which dimensions will be displayed as a color, image, or inline text. It applies to all experiences that support dimension selection such as buy box, quick view, search results, and product collection modules.",
             "type": "array",
@@ -210,7 +210,7 @@
             "group": "Dimension settings",
             "items": {
                 "type": "string",
-                "enum":{
+                "enum": {
                     "none": "none",
                     "color": "Color",
                     "size": "Size",
@@ -218,7 +218,7 @@
                 }
             }
         },
-        "dimensionsInProductCard" : {
+        "dimensionsInProductCard": {
             "friendlyName": "Dimensions to display in product card",
             "description": "This setting defines which dimensions should be displayed when browsing the products. It applies to product collection and search results modules. It is not recommended to turn it on when the products have lots of dimensions as it may cause some bad user experience as the product cards will be big.",
             "type": "array",
@@ -227,7 +227,7 @@
             "group": "Dimension settings",
             "items": {
                 "type": "string",
-                "enum":{
+                "enum": {
                     "none": "none",
                     "color": "Color",
                     "size": "Size",
@@ -235,11 +235,11 @@
                 }
             }
         },
-        "dimensionToPreSelectInProductCard" : {
+        "dimensionToPreSelectInProductCard": {
             "friendlyName": "Dimension to pre-select in product card",
             "description": "On page load, the first value of the selected dimension will always be selected in a product card and will display the respective image. This setting applies only if you selected a value in Dimensions to display on product card.",
             "type": "string",
-            "enum":{
+            "enum": {
                 "none": "Do not select any dimension",
                 "color": "Color",
                 "size": "Size",
@@ -288,7 +288,7 @@
             "description": "This setting displays grey placeholders showing a product can be added to comparison",
             "group": "Product comparison"
         },
-        "maxQuantityForProductListLineItem":{
+        "maxQuantityForProductListLineItem": {
             "friendlyName": "Order template cart line quantity limit",
             "description": "Maximum quantity limit of an item that can be added to a cart line from order template",
             "type": "number",
@@ -304,7 +304,7 @@
         },
         "OmniChannelMedia": {
             "friendlyName": "Enable omni channel media management",
-            "description": "This switch changes the default rendering behavior for product and category media.  Once enabled, media assignments made in the omni channel workspace will be used instead of the legacy filename-based product and category image rendering behavior",
+            "description": "This changes the default rendering behavior for product and category media. Once enabled, media assignments made using the Omnichannel content workflows will be used instead of the legacy filename-based product and category image rendering behavior.",
             "type": "boolean",
             "default": false,
             "group": "General"
