@@ -74,7 +74,7 @@
         },
         "maxQuantityForCartLineItem": {
             "friendlyName": "Cart line quantity limit",
-            "description": "Limit to the number of copies of an item that can be added to a cart line",
+            "description": "This configuration will be deprecated in future releases. Please use the configuration 'Maximum quantity per item' in the Commerce Headquarters under Functionality profiles for the online store.",
             "type": "number",
             "default": 10,
             "group": "Inventory management"
