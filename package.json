@@ -18,7 +18,7 @@
     "integration": "integration"
   },
   "devDependencies": {
-    "@msdyn365-commerce/eslint-config": "1.48.3-preview.0",
+    "@msdyn365-commerce/eslint-config": "^1.0.0",
     "@types/fs-extra": "^5.0.4",
     "@types/jest": "^23.3.10",
     "@types/node-fetch": "^2.1.4",
