@@ -310,7 +310,64 @@
             "group": "General"
         }
     },
-    "routes": { },
+    "routes": {
+        "orderDetails": {
+            "friendlyName": "Order details Page Route",
+            "description": "Order details Page Route"
+        },
+        "cart": {
+            "friendlyName": "Cart Page Route",
+            "description": "Cart Page Route"
+        },
+        "checkout": {
+            "friendlyName": "Checkout Page Route",
+            "description": "Checkout Page Route"
+        },
+        "orderConfirmation": {
+            "friendlyName": "Order Confirmation Page Route",
+            "description": "Order Confirmation Page Route"
+        },
+        "home": {
+            "friendlyName": "Home Page Route",
+            "description": "Home Page Route"
+        },
+        "rnrPrivacyPolicy": {
+            "friendlyName": "RNR Privacy Policy",
+            "description": "Privacy Policy for Ratings and Reviews"
+        },
+        "wishlist": {
+            "friendlyName": "Wishlist Page Route",
+            "description": "Wishlist Page Route"
+        },
+        "loyalty": {
+            "friendlyName": "Loyalty Page Route",
+            "description": "Loyalty Page Route"
+        },
+        "loyaltyJoin": {
+            "friendlyName": "Loyalty sign up Page Route",
+            "description": "Loyalty sign up Page Route"
+        },
+        "loyaltyTerms": {
+            "friendlyName": "Loyalty terms page route",
+            "description": "Loyalty terms Page Route"
+        },
+        "search": {
+            "friendlyName": "Search page route",
+            "description": "Search page route"
+        },
+        "ordertemplate": {
+            "friendlyName": "Order template details Page Route",
+            "description": "Order template details Page Route"
+        },
+        "ordertemplatelist": {
+            "friendlyName": "Order template list Page Route",
+            "description": "Order template list Page Route"
+        },
+        "invoicedetails": {
+            "friendlyName": "Invoice details Page Route",
+            "description": "Invoice details Page Route"
+        }
+    },
     "themes": {
         "fabrikam": {
             "friendlyName": "Fabrikam theme"
