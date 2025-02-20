@@ -105,6 +105,9 @@
     "webpack": "^5.42.0",
     "react-universal-component": "^4.0.0",
     "util": "0.12.3",
-    "cheerio": "1.0.0-rc.12"
+    "cheerio": "1.0.0-rc.12",
+    "testcafe": "3.7.1",
+    "testcafe-hammerhead": "24.7.2",
+    "testcafe-legacy-api": "5.1.4"
   }
 }
