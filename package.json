@@ -108,6 +108,7 @@
     "cheerio": "1.0.0-rc.12",
     "testcafe": "3.7.1",
     "testcafe-hammerhead": "24.7.2",
-    "testcafe-legacy-api": "5.1.4"
+    "testcafe-legacy-api": "5.1.4",
+    "@types/minimatch": "5.1.2"
   }
 }
