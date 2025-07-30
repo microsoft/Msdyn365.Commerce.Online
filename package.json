@@ -18,7 +18,7 @@
     "integration": "integration"
   },
   "devDependencies": {
-    "@msdyn365-commerce/eslint-config": "^1.0.0",
+    "@msdyn365-commerce/eslint-config": "1.55.3-preview.0",
     "@types/fs-extra": "^5.0.4",
     "@types/jest": "^23.3.10",
     "@types/node-fetch": "^2.1.4",
@@ -50,15 +50,16 @@
     "typeson": "5.10.1"
   },
   "dependencies": {
-    "@msdyn365-commerce-modules/starter-pack": "9.54",
-    "@msdyn365-commerce-modules/fabrikam-design-kit": "9.54",
-    "@msdyn365-commerce/bootloader": "^1.0.0",
-    "@msdyn365-commerce/retail-proxy": "9.54",
-    "@msdyn365-commerce-modules/msdyn365-exp-test-connector": "^1.0.0",
-    "@msdyn365-commerce-theme/adventureworks-theme-kit": "9.54",
+    "@msdyn365-commerce-modules/starter-pack": "9.55.7-preview.0",
+    "@msdyn365-commerce-modules/fabrikam-design-kit": "9.55.7-preview.0",
+    "@msdyn365-commerce/bootloader": "1.55.3-preview.0",
+    "@msdyn365-commerce/retail-proxy": "9.55.7-preview.0",
+    "@msdyn365-commerce-modules/msdyn365-exp-test-connector": "1.55.3-preview.0",
+    "@msdyn365-commerce-theme/adventureworks-theme-kit": "9.55.7-preview.0",
     "reactstrap": "^6.5.0",
     "stack-trace": "^0.0.10",
-    "tslib": "^1.9.3",
+    "typescript": "4.2.4",
+    "tslib": "2.8.1",
     "path-browserify": "1.0.1",
     "stream-browserify": "3.0.0",
     "browserify-fs": "1.0.0",
@@ -87,9 +88,9 @@
     "preset": "@msdyn365-commerce/cli-internal"
   },
   "resolutions": {
-    "@msdyn365-commerce/bootloader": "^1.0.0",
-    "@msdyn365-commerce/core": "^1.0.0",
-    "@msdyn365-commerce-modules/core-components": "^1.0.0",
+    "@msdyn365-commerce/bootloader": "1.55.3-preview.0",
+    "@msdyn365-commerce/core": "1.55.3-preview.0",
+    "@msdyn365-commerce-modules/core-components": "^1.55.3-preview.0",
     "axios": "^0.21.1",
     "@types/react": "16.9.0",
     "fork-ts-checker-webpack-plugin": "6.0.8",
@@ -109,6 +110,10 @@
     "testcafe": "3.7.1",
     "testcafe-hammerhead": "24.7.2",
     "testcafe-legacy-api": "5.1.4",
-    "@types/minimatch": "5.1.2"
+    "@types/minimatch": "5.1.2",
+    "@azure/core-auth": "1.5.0",
+    "@azure/core-util": "1.5.0",
+    "typescript": "4.2.4",
+    "tslib": "2.8.1"
   }
 }
