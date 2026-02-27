@@ -90,6 +90,7 @@
   "resolutions": {
     "@msdyn365-commerce/bootloader": "1.55",
     "@msdyn365-commerce/core": "1.55",
+    "@msdyn365-commerce/core-internal": "1.55.2",
     "@msdyn365-commerce-modules/core-components": "1.55",
     "axios": "^0.21.1",
     "@types/react": "16.9.0",
