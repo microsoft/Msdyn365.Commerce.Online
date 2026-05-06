@@ -1,0 +1,53 @@
+pr: none
+trigger: none
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  - name: nodeVersion
+    value: '20.x'
+
+steps:
+  - task: NodeTool@0
+    displayName: 'Use Node.js $(nodeVersion)'
+    inputs:
+      versionSpec: $(nodeVersion)
+
+  - task: PowerShell@2
+    displayName: 'Install Yarn'
+    inputs:
+      targetType: 'inline'
+      script: npm install -g yarn
+
+  - task: PowerShell@2
+    displayName: 'Install dependencies'
+    inputs:
+      targetType: 'inline'
+      script: yarn install
+      workingDirectory: '$(Build.SourcesDirectory)'
+
+  - task: PowerShell@2
+    displayName: 'Build application'
+    inputs:
+      targetType: 'inline'
+      script: yarn build
+      workingDirectory: '$(Build.SourcesDirectory)'
+
+  - task: PowerShell@2
+    displayName: 'Pack e-commerce application'
+    inputs:
+      targetType: 'inline'
+      script: yarn msdyn365 pack
+      workingDirectory: '$(Build.SourcesDirectory)'
+
+  - task: PowerShell@2
+    displayName: 'Copy package to artifact staging directory'
+    inputs:
+      targetType: filePath
+      filePath: ./Pipeline/PowerShellScripts/CopyFileToDestination.ps1
+      arguments: '-RelativePath "$(Build.SourcesDirectory)" -File "Msdyn365.Commerce.Online-*.zip" -DestinationFullName "$(Build.ArtifactStagingDirectory)\Msdyn365.Commerce.Online_$(Build.BuildNumber).zip"'
+      failOnStderr: true
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: drop'

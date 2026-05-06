@@ -1,0 +1,51 @@
+trigger: none
+pr: none
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  - group: Commerce-ECommerce-Extension-Release-Variables
+  - name: scriptsPath
+    value: '$(Build.SourcesDirectory)/Pipeline/PowerShellScripts/DataverseClient'
+
+resources:
+  pipelines:
+    - pipeline: buildArtifact
+      source: 'Commerce-ECommerce-Extension-Build' # Must match the ADO pipeline name created from build-pipeline.yml
+      trigger: none
+
+steps:
+  - download: buildArtifact
+    artifact: drop
+    displayName: 'Download E-Commerce Extension Package'
+
+  - task: PowerShell@2
+    displayName: 'Upload E-Commerce Extension Package to Dataverse'
+    inputs:
+      targetType: 'inline'
+      pwsh: true
+      script: |
+        $ErrorActionPreference = 'Stop'
+
+        $packageFile = Get-ChildItem "$(Pipeline.Workspace)/buildArtifact/drop/Msdyn365.Commerce.Online_*.zip" | Select-Object -First 1
+
+        if (-not $packageFile) {
+            throw "No package file found"
+        }
+
+        $uploadParams = @{
+            PackageFilePath  = $packageFile.FullName
+            PackagePublisher = '$(PackagePublisher)'
+            EnvironmentUrl   = '$(DataverseUrl)'
+            TenantId         = '$(TenantId)'
+            ClientId         = '$(ClientId)'
+            ClientSecret     = '$(ClientSecret)'
+            ValidationStatus = 'Valid'
+        }
+
+        if ('$(PackageName)') {
+            $uploadParams.PackageName = '$(PackageName)'
+        }
+
+        & $(scriptsPath)/UploadExtensionPackage.ps1 @uploadParams
