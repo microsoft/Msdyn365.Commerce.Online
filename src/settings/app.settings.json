@@ -7,6 +7,13 @@
             "default": false,
             "group": "Bulk purchase"
         },
+        "crossLegalEntityInventory": {
+            "friendlyName": "Cross Legal Entity Inventory",
+            "description": "Flag to enable or disable cross legal entity inventory",
+            "type": "boolean",
+            "default": false,
+            "group": "Inventory management"
+        },
         "enableStockCheck": {
             "friendlyName": "Enable stock check in app",
             "description": "Flag to enable ot disable stock check in app",
@@ -55,6 +62,13 @@
         "outOfStockThreshold": {
             "friendlyName": "Out of stock threshold",
             "description": "Active when Inventory Buffer is selected. Threshold to use when determining if a product is out of stock or not -- if its less than or equal to this value, it'll be marked as out of stock",
+            "type": "number",
+            "default": 0,
+            "group": "Inventory management"
+        },
+        "lowStockThreshold": {
+            "friendlyName": "Low stock threshold",
+            "description": "Threshold to use when determining if a product is low stock -- if its less than or equal to this value, it'll be marked as low stock",
             "type": "number",
             "default": 0,
             "group": "Inventory management"
