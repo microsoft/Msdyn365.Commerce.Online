@@ -59,6 +59,19 @@
             "default": 0,
             "group": "Inventory management"
         },
+        "lowStockThreshold": {
+            "friendlyName": "Low stock threshold",
+            "description": "Threshold to use when determining if a product is low in stock. If the available quantity is greater than the out of stock threshold and less than or equal to this value, the product is marked as low in stock and the remaining quantity is displayed. Set a value greater than the out of stock threshold. If not defined, no low stock label will be shown.",
+            "type": "number",
+            "group": "Inventory management"
+        },
+        "enableCrossLegalEntity": {
+            "friendlyName": "Enable cross legal entity inventory",
+            "description": "Flag to enable cross legal entity (cross-company) inventory lookup on the site.",
+            "type": "boolean",
+            "default": false,
+            "group": "Inventory management"
+        },
         "productListInventoryDisplay": {
             "friendlyName": "Inventory settings for product list pages.",
             "description": "This setting defines how out of stock products should be displayed in product lists such as Product Collection and Search results modules.",
